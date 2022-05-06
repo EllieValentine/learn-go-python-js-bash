@@ -1,6 +1,6 @@
 # Learn Python, Go, Javascript and Bash Shell Script.
 
-The repository contains examples of similar programs (relational Operators, conditional statements and loops) written on Python, Go, Javascript and Bash Shell Script.
+The repository contains examples of similar programs (relational operators, conditional statements and loops) written on Python, Go, Javascript and Bash Shell Script.
 
 Each directory contains run.go, run.js, run.py and run.sh files.
 
