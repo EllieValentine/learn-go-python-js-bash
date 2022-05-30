@@ -23,8 +23,6 @@ func bubbleSort(array[] int) []int {
 				  array[j+1] = temp
 			  }
 		}
-
-	
 	}
   return array
 }
