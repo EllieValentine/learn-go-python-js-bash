@@ -3,6 +3,7 @@ function bubbleSort ()
 {
     # Get the array parameter
     array=("$@")
+   
     # Find an array length
     len=${#array[@]}
     
@@ -38,4 +39,3 @@ echo ${numbers[@]}
 
 # Calling the function
 bubbleSort "${numbers[@]}"
-
