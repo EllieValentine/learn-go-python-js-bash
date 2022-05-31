@@ -77,12 +77,79 @@ print(hex(255))
 # Reads user input and converts it to a string
 name = input("Enter your name: ")
 
+# int()
+# Convert a string into an integer
+print(int(3.5))
 
+# len()
+# Return the length of an object
+sample = ['January', 'February', 'March', 'April', 'May']
+print(len(sample))
 
+# max()
+# Return the item with the highest value. For words, return the highest value, ordered alphabetically
+sample = ['January', 'February', 'March', 'April']
+print(max(sample))
+sample = (5,2,6,1)
+print (max(sample))
 
+# min()
+# Opposite to Max
+sample = ['January', 'February', 'March', 'April']
+print(min(sample))
+sample = (5,2,6,1)
+print (min(sample))
 
+# next()
+# Return the next item in an iterator
+sample = iter(['January', 'February', 'March', 'April'])
+print(next(sample)) # Returns January
+print(next(sample)) # Returns February
 
+# open(file, mode, options)
+# open(file, mode='r', buffering=- 1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+# Open file accoirding to 'mode'
+# Mode options 'r' - read, 'w' - overwrite, 'x' - create, 'a' - append, '+' - update (read and write)
+# Example
+# file = open("samplefile.txt", "r")
+# print(file.read())
 
+# print()
+# Print object
+print('Hello')
 
+# reversed()
+# Reverse the sequence
+sample = ['January', 'February', 'March', 'April', 'May']
+rsample = reversed(sample)
+for i in rsample:
+  print(i)
 
+# round(number, ndigits)
+# Return number rounded to ndigits precision
+pi = 3.14159265359
+print (round(pi, 4))
 
+# set() 
+# Creates a set object. The items in a set are unordered, so it will appear in random order
+sample = set(('January', 'February', 'March', 'April', 'May'))
+print(sample)
+
+#sorted()
+# Return a sorted list from the items in iterable 
+sample = ('January', 'February', 'March', 'April', 'May')
+print(sorted(sample))
+
+# str()
+# Return a string version of object
+print(str(12547))
+
+# sum()
+# Return a sum of all items
+sample = (2, 4, 6, 8, 10)
+print(sum(sample))
+
+# type()
+# Return the type of an object
+sample = set(('January', 'February', 'March', 'April', 'May'))
+print(type(sample)) # Returns <class 'set'>
