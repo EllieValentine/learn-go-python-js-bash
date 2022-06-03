@@ -26,9 +26,6 @@ print(x ** y)
 # Floor division. Returns the rounded quotient. If one of the operands is negative, the result is rounded towards negative infinity.
 print(x // 4)
 
-print('here')
-
-
 # Comparison Operators
 
 # Equal

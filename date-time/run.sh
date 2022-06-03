@@ -151,8 +151,40 @@ day=$(date +'%w')
 echo $day # 2
 
 # week number of year, with Monday as first day of week
-day=$(date +'%W') 
-echo $day # 22
+week=$(date +'%W') 
+echo $week # 22
+
+# local date 
+date=$(date +'%x') 
+echo $date # 06/ 1/2022
+
+# locale’s time 
+time=$(date +'%X') 
+echo $time # 12:04:42 PM
+
+# last two digits of year
+year=$(date +'%y') 
+echo $year # 22
+
+# year
+year=$(date +'%Y') 
+echo $year # 2022
+
+# +hhmm numeric time zone 
+zone=$(date +'%z') 
+echo $zone # -0700
+
+# +hh:mm numeric time zone
+zone=$(date +'%:z') 
+echo $zone # -07:00
+
+# +hh:mm:ss numeric time zone
+zone=$(date +'%::z') 
+echo $zone # -07:00:00
+
+# numeric time zone with : to necessary precision
+zone=$(date +'%:::z') 
+echo $zone # -07
 
 # alphabetic time zone abbreviation (e.g., EDT)
 zone=$(date +'%Z') 
