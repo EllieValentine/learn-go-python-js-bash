@@ -15,7 +15,7 @@ func main() {
 	min := 1
 	max := 10
 	machinePick := rand.Intn(max-min+1) + min
-	fmt.Println(machinePick)
+
 	guesses := 0
 
 	fmt.Println("I picked a number from 1 to 10. Could you guess it in less than 6 turns?")
